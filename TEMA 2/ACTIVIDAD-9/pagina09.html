@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 9: tablas</title>
+    <style>
+        table, th, td{
+            border: 3px solid black;
+            border-collapse: collapse;
+            
+        }
+         thead#dias{
+            color: blue;
+            border: 5px outset red ;
+         }
+        th, td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body id="horario">
+    <hgroup>
+        <h1>Oussama Ed-Dahabi Lakhal</h1>
+        <br/>
+        <h3>Horario de DAM Bilingüe</h3>
+    </hgroup>
+    <table>
+        <thead id="dias">
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1º</td>
+            <td rowspan="3" style="text-align: center;">SI</td>
+            <td>LMSGI</td>
+            <td>LMSGI</td>
+            <td rowspan="3" style="text-align: center;">BD</td>
+            <td rowspan="2" style="text-align: center;">Programaci&oacute;n</td>
+        </tr>
+        <tr>
+            <td>2º</td>
+            <td rowspan="2" style="text-align: center;">Programaci&oacute;n</td>
+            <td rowspan="2" style="text-align: center;">Ingl&eacute;s</td>
+        </tr>
+        <tr>
+            <td>3º</td>
+            <td>FOL</td>
+        </tr>
+        <tr>
+            <td colspan="6" style="text-align: center;">Recreo</td>
+        </tr>
+        <tr>
+            <td>4º</td>
+            <td rowspan="3" style="text-align: center;">Programaci&oacute;n</td>
+            <td rowspan="3" style="text-align: center;">BD</td>
+            <td>FOL</td>
+            <td>Programaci&oacute;n</td>
+            <td>FOL</td>
+        </tr>
+        <tr>
+            <td>5º</td>
+            <td rowspan="2" style="text-align: center;">LMSGI</td>
+            <td rowspan="2" style="text-align: center;">ED</td>
+            <td rowspan="2" style="text-align: center;">SI</td>
+        </tr>
+        <tr>
+            <td>6º</td>
+        </tr>
+    </table>
+    <br/>
+    <hgroup>
+        <h3>Segunda tabla</h3>
+    </hgroup>
+
+    <table style="background-color: aqua; border-color: white;">
+        <tr>
+            <td style="width: 200px;"></td>
+            <td style="width: 600px;">Una tabla dentro de otra</td>
+            <td style="width: 200px;"></td>
+        </tr>
+        <tr>
+            <td style="height: 100px;"><img src="IMAGENPARALM.jpg"/></td>
+            <td >
+                <table style="width: 100%; height: 300px;">
+                    <tr>
+                        <td rowspan="2"></td>
+                        <td style="width: 300px; background-color: blue;"></td>
+                        <td rowspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: blue;"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                </tr>
+                </table>
+            </td>
+            <td style="width: 350px;"></td>
+        </tr>
+        <tr>
+            <td style="height: 20px;"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br/>
+    <hgroup>
+        <h3><b>Tercera tabla</b></h3>
+    </hgroup>
+    <table>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2"><img src="cactusMP3.webp"/></td>
+            <td colspan="2"><img src="MP4-Pantalla.jpg"></td>
+        </tr>
+        <tr>
+            <td>capacidad</td>
+            <td>2GB</td>
+            <td>4GB</td>
+            <td>8GB</td>
+            <td>32GB</td>
+            <td>2GB</td>
+        </tr>
+        <tr>
+            <td>Colores</td>
+            <td>Blanco</td>
+            <td>
+                <ul style="list-style: disc;">
+                    <li>Negro</li>
+                    <li>Rosa</li>
+                    <li>Dorado</li>
+                </ul>
+            </td>
+            <td>Negro</td>
+            <td colspan="2">
+                <ul style="list-style: disc;">
+                    <li>Negro</li>
+                    <li>Blanco</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Pantalla</td>
+            <td colspan="2">3 pulgadas</td>
+            <td colspan="2">7 pulgadas</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">Tiempo de Carga</td>
+            <td colspan="2" rowspan="2">1 hora</td>
+            <td colspan="2">5 horas</td>
+        </tr>
+        <tr>
+            <td colspan="2">30 minutos para 75%</td>
+        </tr>
+    </table>
+</body>
+</html>

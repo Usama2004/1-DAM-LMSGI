@@ -1,0 +1,81 @@
+#contenedor-principal{
+    border: 1px solid gray;
+    width: 1400px;
+    height: 500px;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 0px;
+    margin-top: 65px;
+    margin-bottom: 0px;
+    padding: 50px;
+    background-color: #df3343;
+}
+.mini-contenedor{
+    border: 1px solid gray;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 15px;
+    float: left ;
+    background-color: white;
+}
+#tres-bloques{
+
+display: flex;
+justify-content: center ;
+
+}
+.lista{
+    list-style-type: circle;
+    margin-right: 20px;
+}
+.boton{
+    background-color: #df3343;  
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,sans-serif;
+}
+#movil{
+    color: #8da43c;
+    font-family: sans-serif;
+}
+#plus{
+    color: #df3343;
+    font-family: sans-serif;
+}
+#fibra{
+    color: #62a8a8;  
+    font-family: sans-serif;
+}
+#titulo{
+    color: white;
+    font-family: saigonbold,monospace;
+    font-size: 2.25rem;
+    line-height: 1.166666666666667;
+    margin-bottom: .4em; 
+}
+#subtitulo{
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    display: block;
+    font-weight: 400;
+    margin: 0 0 .5em;
+}
+.explicacion{
+    color: #999;
+    display: block;
+    font: 400 .875rem Roboto Slab,serif;
+    font-size: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+

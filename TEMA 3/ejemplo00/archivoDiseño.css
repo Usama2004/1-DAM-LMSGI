@@ -1,0 +1,16 @@
+h1{
+    color: gold;
+}
+p{
+    color: red;
+    text-align: center;
+}
+span{
+    color: blue;
+}
+#sp1{
+    color: green;
+}
+.color{
+    color: black;
+}

@@ -1,0 +1,30 @@
+"xagendex":{
+	"agenda":[
+		{
+			"nombre":"Oussama",
+			"apellidos":"Ed-Dahabi Lakhal",
+			"teléfono1":"111111111",
+			"teléfono2":"222222222",
+			"dirección":"calle Elvira nº1",
+			"email":usamaed2004@gmail.com",
+		},
+		{
+			
+			"nombre":"Abdel",
+			"apellidos":"Ed-Dahabi Lakhal",
+			"teléfono1":"444444444",
+			"teléfono2":"555555555",
+			"dirección":"calle Juaquina Eguaras",
+			"email":abdeled2004@gmail.com",
+		},
+		{
+			
+			"nombre":"Yassine",
+			"apellidos":"Ed-Dahabi Lakhal",
+			"teléfono1":"555555555",
+			"teléfono2":"888888888",
+			"dirección":"calle Tibonidas",
+			"email":yassineed2004@gmail.com",
+		}
+	]
+}

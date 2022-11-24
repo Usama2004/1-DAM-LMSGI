@@ -1,0 +1,23 @@
+<xagendax>
+	<persona>	
+		<nombre>Oussama</nombre>
+		<apellidos>Ed-Dahabi Lakhal</apellidos>
+		<teléfono1>111111111</teléfono1>
+		<dirección>calle Juaquina Eguaras nº5</dirección>
+		<email>usamaeddahabi@hotmail.com</email>
+	</persona>
+	<persona>
+		<nombre>Yassine</nombre>
+		<apellidos>Ed-Dahabi Lakhal</apellidos>
+		<teléfono1>222222222</teléfono1>
+		<dirección>calle Elvira nº2</dirección>
+		<email>yassine0000@gmail.es</email>
+	</persona>
+	<persona>
+		<nombre>Abdel</nombre>
+		<apellidos>Ed-Dahabi Lakhal</apellidos>
+		<teléfono1>333333333</teléfono1>
+		<dirección>calle Navas nº1</dirección>
+		<email>abdeldahabi9@yahoo.com</email>
+	</persona>
+</xagendax>

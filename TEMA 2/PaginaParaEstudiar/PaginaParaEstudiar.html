@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P&aacute;gina Para Estudiar</title>
+    <style>
+        table, th, td{
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+        table#uno{
+            border: double ;
+        }
+    </style>
+</head>
+<body style="background-color: rgba(0, 0, 255, 0); color: black">
+    <hgroup>
+        <h1>P&aacute;gina Para Estudiar</h1>
+        <br/>
+        <h3>TABLA 1</h3>
+    </hgroup>
+    <br/>
+    <table>
+        <thead>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3" style="text-align: center;">SI</td>
+                <td>LM</td>
+                <td>LM</td>
+                <td rowspan="3" style="text-align: center;">BBDD</td>
+                <td rowspan="2" style="text-align: center;">PROGRAMACI&Oacute;N</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="text-align: center;">PROGRAMACI&Oacute;N</td>
+                <td rowspan="2" style="text-align: center;">INGL&Eacute;S</td>
+            </tr>
+            <tr>
+                <td>FOL</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center;">RECREO</td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="text-align: center;">PROGRAMACI&Oacute;N</td>
+                <td rowspan="3" style="text-align: center;">BBDD</td>
+                <td>FOL</td>
+                <td rowspan="3" style="text-align: center;">ED</td>
+                <td>FOL</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="text-align: center;">LM</td>
+                <td rowspan="2" style="text-align: center;">SI</td>
+            </tr>
+            <tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>6 horas</td>
+                <td>6 horas</td>
+                <td>6 horas</td>
+                <td>6 horas</td>
+                <td>6 horas</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br/>
+    <br/>
+    <hgroup>
+        <h3>TABLA 2</h3>
+    </hgroup>
+    <table id="uno" style="background-color:chartreuse;">
+        <thead style="border: 10px red outset;">
+            <tr>
+                <th>Hijos</th>
+                <th>Patrimonio ($)</th>
+                <th>Bitcois</th>
+                <th>Coches</th>
+                <th>Casas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>20000</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>13450</td>
+                <td>7</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>6</td>
+                <td>33450</td>
+                <td>11</td>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

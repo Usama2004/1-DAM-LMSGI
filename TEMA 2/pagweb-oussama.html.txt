@@ -1,0 +1,19 @@
+< !DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<titlle>La primera pagina web de Oussama</titlle>
+</head>
+<body>
+	<hgroup>
+		<h1>Actividad numero </h1>
+	</hgroup>
+	<P>
+		Hola yo soy Oussama y esta es mi primera pagina web
+	</P>
+	<P>
+		Algunas de mis aficciones entre otras es el futbol
+	</P>
+</body>
+</html>
+		

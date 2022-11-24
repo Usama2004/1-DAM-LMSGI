@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 10: Formularios</title>
+    <script>
+        function myalert(){
+           var valor=document.getElementById("pais").value;
+           alert(valor);
+           var valor=document.getElementById("genero").value;
+           alert(valor)
+        }
+        function enviar_mail(){
+            var nombre=formulario.nombre.value;
+            var apellidos=formulario.apellidos.value;
+
+            var cadena='Nombre: '+nombre+'%OD%OA';
+            cadena=cadena + 'apellidos: '+apellidos+'%OD%OA'
+            window.location.href = "milto:oedd308@g.educaand.es?subject=Envio de formulario&body="+cadena;
+        }
+    </script>
+
+</head>
+<body>
+    <hgroup>
+        <h1>Oussama Ed-Dahabi Lakhal</h1>
+    </hgroup>
+    <br/>
+    <hgroup>
+        <h3>4 botones: enviar, resetear general y uno a partir de una im&aacute;gen</h3>
+    </hgroup>
+    <form>
+        <input type="submit" value="Enviar">
+        <br/>
+        <br/>
+        <input type="reset" value="resetear">
+        <br/>
+        <br/>
+        <input type="button" value="general">
+        <br/>
+        <br/>
+        <input type="image" src="check.jpg" width="100px" height="100px">
+    </form>
+    <br/>
+    <hgroup>
+        <h3>Una caja de texto de tamaño 50 pero con limitaci&oacute;n de 15 caracteres</h3>
+    </hgroup>
+    <form>
+        <input type="text" size="50" maxlength="15">
+    </form>
+    <br/>
+    <hgroup>
+        <h3>Una caja de texto con un valor predeterminado</h3>
+    </hgroup>
+    <form>
+        <input type="text" value="Escribe algo">
+    </form>
+    <br/>
+    <hgroup>
+        <h3>Una caja de texto de tipo contraseña</h3>
+    </hgroup>
+    <form>
+        <input type="password">
+    </form>
+    <br/>
+    <hgroup>
+        <h3>Selección de fecha</h3>
+    </hgroup>
+    <form>
+        <input type="date">
+    </form>
+    <br/>
+    <hgroup>
+        <h3>Dos grupos de radio button que deben ser independientes entre sí</h3>
+    </hgroup>
+    <form>
+        <p>Actualmente, &iquest;cual es tu situación?</p>
+        <input type="radio">Actualmente tengo trabajando
+        <br/>
+        <input type="radio">Actualmente estoy en el paro
+    </form>
+    <br/>
+    <hgroup>
+        <h3>Una lista desplegable con 4 opciones, una de ellas debe estar inhabilitad</h3>
+    </hgroup>
+    <select name="Coches" size="1">
+        <option selected disabled>Selecciona una marca de coche</option>
+        <option value="1">Ferrari</option>
+        <option value="2">Maserati</option>
+        <option value="3">Bugatti</option>
+    </select>
+    <br/>
+    <hgroup>
+        <h3>Un &aacute;rea de texto con los colores y tama&ntilde;o modificados </h3>
+    </hgroup>
+    <textarea name="&aacute;rea de texto"cols="30" rows="10" style="color: red;"></textarea>
+    <br/>
+    <hgroup>
+        <h3>Recogida y envios de los datos por email</h3>
+    </hgroup>
+    <fieldset id="formulario">
+        <legend>Primer formulario</legend>
+        <label>
+            Nombre:
+            <input type="text" id="nombre">
+            <br/>
+            <br/>
+            Apellidos:
+            <input type="text" id="apellidos">
+            <br/>
+            <br/>
+            <input type="radio" required>Acepto las pol&iacute;ticas de la aplicaci&oacute;n
+            <br/>
+            <br/>
+            <button type="submit" name="enviar" onclick="enviar_mail()">Enviar</button>
+        </label>
+    </fieldset>
+    <br/>
+    <fieldset>
+        <legend>Segundo formulario</legend>
+        <label>
+            Pais de nacimiento:
+            <input type="text" id="pais">
+            <br/>
+            <br/>
+            G&eacute;nero:
+            <input type="text" id="genero">
+            <br/>
+            <br/>
+            <input type="radio" required>Confirmo que tengo m&aacute;s de 18
+            <br/>
+            <br/>
+            <button type="submit" onclick="myalert()">
+                Mostrar
+            </button>
+        </label>
+    </fieldset>
+    <br/>
+    <br/>
+    <hgroup>
+        <h3>HOJA DE INSCRIPCI&Oacute;N EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h3>
+    </hgroup>
+    <fieldset style="background-color: gray;">
+        <legend style="background-color: white;">Datos Personales</legend>
+        <label>
+            Nombre:
+            <input type="text" id="name">
+            Apellidos:
+            <input type="text" id="lastname">
+            DNI:
+            <input type="text" id="dni">
+            <br/>
+            <br/>
+            Localidad nacimiento
+            <input type="text" id="nacimiento">
+            Provincia:
+            <select name="Provincias" size="1">
+                <option selected disabled>-Selecciona tu provincia-</option>
+                <option value="1">Granada</option>
+                <option value="2">Almeria</option>
+                <option value="3">Jaen</option>
+                <option value="4">Sevilla</option>
+                <option value="5">Sevilla</option>
+                <option value="6">Huelva</option>
+                <option value="7">Malaga</option>
+            </select>
+            Fecha de nacimiento:
+            <input type="date" name="date" id="date">
+            <br/>
+            <br/>
+            Dirección:
+            <input type="text" size="50" id="address">
+            C&oacute;digo Postal:
+            <input type="text" id="postal">
+        </label>
+    </fieldset>
+    <fieldset style="background-color:navajowhite;">
+        <legend style="background-color: white;">Forma Acceso</legend>
+        <label>
+            <input type="radio">Direct
+            <br/>
+            <br/>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio">Bachillerato LOGSE Modalidad
+                <input type="text">
+            <br/>
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio">Bachillerato Experimental
+            <br/>
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio">COU. Opci&oacute;n
+                <input type="text">
+            <br/>
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio">FP2
+            <br/>
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio">Otros (especifique)
+                <input type="text">
+            <br/>
+            <br/>
+            <input type="radio">Prueba Libre
+        </label>
+    </fieldset>
+    <fieldset style="background-color:tomato;">
+        <legend style="background-color: white;">Documentos Adjuntados</legend>
+        Fotocopia DNI
+        <input type="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Certificado Académico
+        <input type="checkbox">
+        <br/>
+        <br/>
+        Otros documentos (especifique)
+        <input type="checkbox">
+            <input type="text" size="50">
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,62 @@
+*{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#encabezado{
+
+    color:cadetblue;
+
+}.encabezado2{
+
+    color: blue;
+
+}.rojo{
+
+    color: red;
+}.naranja{
+
+    color:coral;
+
+}#azul{
+
+    color: blue;
+
+}#morrado{
+
+    color: purple;
+
+}
+td{
+
+    border: 2px solid black;
+
+}table{
+
+    border-collapse: collapse;
+
+}.celdaO{
+
+    color: orange;
+
+}.celdaR{
+
+    color: red;
+
+}.celdaV{
+
+    color: green;
+
+}.Voscuro{
+
+color: green;
+
+}#pink{
+
+color: pink;
+
+}#verde{
+
+color: greenyellow;
+
+}
