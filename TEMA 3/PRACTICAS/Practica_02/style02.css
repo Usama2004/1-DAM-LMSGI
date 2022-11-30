@@ -1,4 +1,67 @@
 table, td, th{
     border: solid 1px black;
     border-collapse: collapse;
+    text-align: center;
+}
+td,th{
+    width: 150px;
+    height: 50px;
+}
+.columna1{
+    background-color: orange;
+}
+#recreo{
+    background-color: blue;
+    color: white;
+}
+th{
+    font-size: 15px;
+    font-weight: bold;
+}
+th::first-letter{
+    font-size: 30px;
+}
+.mayuscula{
+    text-transform: uppercase;
+}
+.first{
+    background-color: red;
+}
+.last{
+    background-color: green;
+}
+#tabla{
+    display: flex;
+    justify-content: center;
+}
+#title{
+    text-align: center;
+}
+#rules{
+    display: flex;
+    justify-content: center;
+}
+.focus:hover {
+    font-size: 30px;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+#size{
+    padding: 25px;
+    width: 600px;
+}
+#text{
+    background-color: pink;
+    width: 200px;
+}
+#text:focus{
+    background-color: yellow;
+}
+.link:link{
+    color: green;
+}
+.link:visited{
+    color: red;
 }
