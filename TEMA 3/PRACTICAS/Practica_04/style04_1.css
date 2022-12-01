@@ -1,4 +1,51 @@
-#encabezado{
+h1{
+    text-align: center;
+}
+blockquote p{
+    text-align: justify;
+}
+blockquote p:hover{
+    background-color: gray;
+    border: solid 5px black;
+}
+img{
+    width: 100%;
+    height: 600px;
+    border: 5px solid orange;
+}
+img:hover{
+    box-shadow: 3px 3px 3px 3px orange;
+}
+figcaption{
+    background-color: gray;
+    color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-align: center;
+}
+.clasificacion{
+    float: left;
+    text-align: center;
+    border: solid 1px black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.clasificacion:hover{
+    box-shadow: 3px 3px 3px 3px cyan;
+}
+#bloke{
+    display: flex;
+    justify-content: center;
+}
+video{
+    width: 800px;
+    height: 500px;
+}
+fieldset{
+    width: 950px;
     margin-left: auto;
     margin-right: auto;
 }
