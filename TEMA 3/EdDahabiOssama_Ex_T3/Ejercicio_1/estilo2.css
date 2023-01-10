@@ -1,0 +1,40 @@
+body{
+    background-image: url(fondo_login.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#contenedor_unico{
+    border: solid 1px rgb(128, 128, 128, 0.4);
+    background-color: rgb(128, 128, 128, 0.4);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+img{
+    width: 15px;
+    height: 15px;
+}
+#padre{
+    position:absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+button{
+    color: white;
+    background-color:rgb(216, 112, 147, 0.7);
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
+span{
+    color: gray;
+    font-size: 18px;
+}
+a{
+    color: gray;
+    text-decoration:none;
+    font-size: 18px;
+}
