@@ -12,7 +12,7 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
-body div:first-of-type{
+#nav{
     border: rgb(224, 112, 8) 5px solid;
     background-color: rgb(255, 255, 255);
     width: 99%;
@@ -24,4 +24,77 @@ body div:first-of-type{
 h1{
     text-align: center;
     font-size: 250%;
+}
+.centro-txt{
+    text-align: center;
+}
+.div{
+    border: solid black 1px;   
+    display: flex;
+    justify-content:space-around;
+    height: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.div li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.list-hs{
+    border: solid black 1px; 
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-hs li{
+    padding-top: 3.3%;
+    padding-bottom: 3.3%;
+}
+#back{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+#front{
+    padding-top: 1.95%;
+    padding-bottom: 1.95%;
+}
+#div2 {
+    border: solid black 1px;   
+    display: flex;
+    justify-content:space-around;
+    height: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#div2 li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#email header div{
+    border: solid black 1px;
+    text-align: center;
+    height: 180px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#email header p{
+    text-align: center;
+}
+#social-networks header div{
+    border: solid black 1px; 
+    width: 50%;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#social-networks header div p{
+    text-align: center;
 }
