@@ -2,6 +2,9 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
 }
+p{
+    font-size:larger;
+}
 nav {
     text-align: center;
     padding-top: 13px;
