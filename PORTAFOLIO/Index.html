@@ -10,9 +10,9 @@
     <a id="subir"></a>
     <div id="nav">
       <nav>
-        <a href="#sobre-mi">Sobre mi</a>
-        <a href="https://github.com/Usama2004">Github</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#sobre-mi" class="link">Sobre mi</a>
+        <a href="https://github.com/Usama2004" class="link">Github</a>
+        <a href="#contacto" class="link">Contacto</a>
       </nav>
     </div>
     <br>
@@ -21,7 +21,10 @@
       <h1>Hola, yo soy Oussama</h1>
       <hr>
       <h2></h2>
-      <img src="" alt="Foto mia">
+      <div id="contenedor">
+        <img src="Descargas.jpg" alt="Foto mia" id="foto-1">
+        <img src="sobremi.png" alt="sobre-mi" id="foto-2">
+      </div>
       <br>
       <blockquote></blockquote>
     </header>
@@ -32,7 +35,6 @@
         <a id="sobre-mi"></a>
         <article id="sobre-mi">
           <header>
-              <img src="" alt="Sobre mi">
                 <h2>Hola me llamo Oussama, hace aproximadamente unos 4 meses que me inicie en mundo de la programación. Una vez terminado
                   el Bachierato de ciencias yo ya tenía claro que quería estudiar algo relacionado con la programación, ahí fue cuando me 
                   puse a investigar y me encontre los cursos de Desarrollo de Aplicaciones Multiplataforma y Desarrollo de Aplicaciones Web;
@@ -67,6 +69,9 @@
         <article id="hard-skills">
           <header>
             <h2 class="centro-txt">Hard-Skills</h2>
+            <div id="contenedor-2">
+              <img src="hardskills.png" alt="hard skills" id="foto-3">
+            </div>
               <ul>
                 <div class="div">
                   <li>Soy rapido escribiendo por teclado</li>
@@ -75,7 +80,6 @@
                   <li>Actualmente me estoy iniciando en SQL y JavaScript</li>
                 </div>
               </ul>
-            <img src="" alt="hard skills">
           </header>
             <ul>
                 <div class="list-hs">
@@ -99,7 +103,9 @@
         <article id="soft-skills">
           <header>
             <h2 class="centro-txt">Soft-Skills</h2>
-            <img src="" alt="Soft skills">
+            <div id="contenedor-3">
+              <img src="soft.png" alt="Soft skills" id="foto-4">
+            </div>
           </header>
             <ul>
               <div id="div2">
@@ -117,7 +123,7 @@
             <h2 class="centro-txt">Enviarme un mensaje</h2>
               <div>
                 <p>Número de Teléfono</p>
-                <input type="number">
+                <input type="tel">
                 <p>Correo electórico</p>
                 <input type="email" name="" id="">
               </div>
@@ -139,21 +145,27 @@
         </article>
       </section>
     </main>
-    <footer>
-      <section id="footer-izq">
-        <h4>&copy;No Copyryght 2023</h4>
-        <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
-      </section>
-      <section id="footer-centro">
-        <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
-        <a href="#subir">Pulsa aqui para volver inicio de la página</a>
-      </section>
-      <section id="footer-dcha">
-        <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
-        <img src="instagram2.jpg" alt="Instagram">
-        <img src="facebook.png" alt="Facebook">
-        <img src="github.jpg" alt="Github">
-      </section>
-    </footer>
+      <footer>
+        <section id="footer-izq">
+          <div id="contenedor-6">
+            <h4 id="copy">&copy;No Copyryght 2023</h4>
+          </div>
+          <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
+        </section>
+        <section id="footer-centro">
+          <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
+          <div id="contenedor-5">
+            <a href="#subir" id="ancla-final">Pulsa aqui para volver inicio de la página</a>
+          </div>
+        </section>
+        <section id="footer-dcha">
+          <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
+                  <div id="contenedor-4">
+                    <img src="instagram2.jpg" alt="Instagram" id="icono-1">
+                    <img src="facebook.png" alt="Facebook" id="icono-2">
+                    <img src="github.jpg" alt="Github" id="icono-3">
+                  </div>
+        </section>
+      </footer>
   </body>
 </html>
