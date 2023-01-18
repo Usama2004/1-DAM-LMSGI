@@ -1,0 +1,8 @@
+*{
+    background-image: url(New-York2.png);
+}
+.rectangulo{
+    height: 200px;
+    width: 300px;
+    background: dodgerblue;
+}
