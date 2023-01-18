@@ -1,8 +1,30 @@
 *{
-    background-image: url(New-York2.png);
+    background-image: url(foto1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 .rectangulo{
     height: 200px;
     width: 300px;
     background: dodgerblue;
+    border-radius: 5px;
+}
+img{
+    height: 700px;
+    width: 1000px;
+}
+.imagen{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(20px, 50%);
 }
