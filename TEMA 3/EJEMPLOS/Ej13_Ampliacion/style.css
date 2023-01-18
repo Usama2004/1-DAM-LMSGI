@@ -8,23 +8,32 @@
     height: 200px;
     width: 300px;
     background: dodgerblue;
-    border-radius: 5px;
+    -webkit-transform: rotate(50deg);
+    border-radius: 20px;
 }
-img{
-    height: 700px;
-    width: 1000px;
+.padre{
+    padding-top: 17%;
+    padding-bottom: 17%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
-.imagen{
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(logo.png);
+    background-size: 750px 700px;
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-position: center;
 }
-p{
-    font-size: 15px;
+.txt{
     color: white;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(20px, 50%);
+    font-size: 15px;
+    text-align: center;
+    width: 50%;
 }
