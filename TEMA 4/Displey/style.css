@@ -4,14 +4,16 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #fffbc9;
+    background-image: linear-gradient(90deg, rgba(247, 24, 24, 1) 0%, rgba(24, 98, 247, 1) 100%);;
 }
 h1{
-    font-size: 80px;
     text-align: center;
+    color: white;
+    font-size: 50px;
+
 }
 h1:hover{
-    color: orangered;
+    color: dodgerblue;
 }
 .container{
     display: flex;
@@ -36,8 +38,8 @@ p{
     font-size: 18px;
 }
 p:hover{
-    box-shadow: red 5px 5px 5px 5px;   
-    color: #002e90;
+    box-shadow: dodgerblue 5px 5px 5px 5px;   
+    color: white;
 }
 .cont{
     padding-left: 6%;
@@ -47,7 +49,7 @@ p:hover{
     margin: 0;
     border: black 2px solid;
     border-radius: 20px;
-    background-color: #ffe068;
+    background-image: linear-gradient(135deg, rgba(50, 24, 247, 1) 0%, rgba(250, 0, 37, 1) 100%);
 }
 .cont:hover{
     box-shadow: gray 5px 5px 5px;
@@ -61,4 +63,7 @@ p:hover{
 }
 .container-3{
     margin-right: 7px;
+}
+footer p{
+    text-align: center; 
 }
