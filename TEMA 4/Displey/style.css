@@ -36,10 +36,10 @@ p{
     text-align: justify;
     padding: 2%;
     font-size: 18px;
+    color: white;
 }
 p:hover{
-    box-shadow: dodgerblue 5px 5px 5px 5px;   
-    color: white;
+    color: orange; 
 }
 .cont{
     padding-left: 6%;
