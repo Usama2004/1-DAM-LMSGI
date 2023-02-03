@@ -12,13 +12,18 @@ header{
     font-size: 40px;
     padding: 10px;
     margin: 10px;
-    border: solid 4px white;
+    border: solid 5px white;
     border-radius: 50px; 
+    background-color: #ef8e6e;
 }
 nav{
-    background-color: ;
-    height: 100vh;
+    padding-left: 30px;
+    margin-left: 1%;
+    background-color: #ef8e6e;
     width: 25%;
+    height: 75%;
+    border: solid 5px white;
+    border-radius: 50px; 
 }
 .nav{
     border: solid black 2px;
@@ -30,8 +35,6 @@ nav{
 #encabezado{
     display: flex;
     justify-content: right;
-    margin-right: auto;
-    margin-left: auto;
     margin: 20px;
     width: 60%;
 }
@@ -51,7 +54,7 @@ nav{
 }
 .txt{
     font-size: 22.5px;
-    width: 95%;
+    width: 80%;
     margin: 13px;
 }
 .txt p{
