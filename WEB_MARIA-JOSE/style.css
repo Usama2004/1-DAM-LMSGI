@@ -32,11 +32,23 @@ nav{
     margin: 20px;
     border-radius: 10px;
 }
+<<<<<<< HEAD
 #encabezado{
     display: flex;
     justify-content: right;
     margin: 20px;
     width: 60%;
+=======
+.nav:hover{
+    box-shadow: 5px 5px #00fac6;
+    border: 5px solid #3d4dc6;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    color: #3d4dc6;
+    background-color: #ffffa7;
+    border-radius: 10px;
+>>>>>>> cf52da815b5bc13c6b896ab1a8d4e4909bcf8364
 }
 #encabezado img{
     border-radius: 50%;

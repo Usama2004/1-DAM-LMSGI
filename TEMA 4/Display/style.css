@@ -32,8 +32,8 @@ img:hover{
 }
 p{
     width: 95%;
-    justify-content:justify;
-    text-align: justify;
+    justify-content:center;
+    text-align: center;
     padding: 2%;
     font-size: 18px;
     color: white;
@@ -42,10 +42,10 @@ p:hover{
     color: orange; 
 }
 .cont{
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 8%;
+    padding-bottom: 9%;
     margin: 0;
     border: black 2px solid;
     border-radius: 20px;
