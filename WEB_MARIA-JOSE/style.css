@@ -19,6 +19,14 @@ nav{
     padding: 1%;
     border: solid 5px #abebc6e6;
 }
+.nav-sec:hover{
+    margin: 0.5%;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: #abebc6e6; 
+    border: solid 5px white;
+    border-radius: 100px;
+}
 header{
     text-align: center;
     font-size: 57px;
@@ -31,6 +39,9 @@ header{
     border: 5px solid #f7dc6fcc;
     border-radius: 20px;
 }
+header:hover{
+    border: 5px solid #abebc6e6;
+}
 .header-img img{
     width: 398px;
     height: 400px;
@@ -38,6 +49,9 @@ header{
     margin: 4.5%;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     border: 5px solid #abebc6e6;
+}
+.header-img img:hover{
+    border: 5px solid #f7dc6fcc;
 }
 .header-img{
     display: flex;
@@ -55,6 +69,9 @@ header{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     border: 5px solid #abebc6e6;
 }
+.img-img img:first-child:hover{
+    border: 5px solid #f7dc6fcc;
+}
 .img-img img:last-child{
     height: 550px;
     width: 35%;
@@ -62,6 +79,9 @@ header{
     border-radius: 20px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     border: 5px solid #abebc6e6;
+}
+.img-img img:last-child:hover{
+    border: 5px solid #f7dc6fcc;
 }
 .txt section:first-child{
     display: flex;
@@ -76,6 +96,9 @@ header{
     margin-left: 6%;
     border: 5px solid #abebc6e6;
 }
+.txt section:first-child img:hover{
+    border: 5px solid #f7dc6fcc;
+}
 .txt section:first-child article p{
     font-size: 17px;
     margin: 2%;
@@ -84,6 +107,9 @@ header{
     padding: 2.25%;
     border-radius: 20px;
     border: 5px solid #f7dc6fcc;
+}
+.txt section:first-child article p:hover{
+    border: 5px solid #abebc6e6;
 }
 .txt section:first-child article{
     text-align: justify;
@@ -103,6 +129,9 @@ header{
     margin-right: 6%;
     border: 5px solid #abebc6e6;
 }
+.txt section:last-child img:hover{
+    border: 5px solid #f7dc6fcc;
+}
 .txt section:last-child article p{
     font-size: 17px;
     margin: 2%;
@@ -111,6 +140,9 @@ header{
     padding: 2.25%;
     border-radius: 20px;
     border: 5px solid #f7dc6fcc;
+}
+.txt section:last-child article p:hover{
+    border: 5px solid #abebc6e6;
 }
 .txt section:last-child article{
     text-align: justify;
