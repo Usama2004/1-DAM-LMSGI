@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Roboto+Mono:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(254, 251, 251);
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 206, 209, 0.825);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    top: 0;
+}
+nav a{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: auto;
+    font-family: 'Roboto Mono', sans-serif;
+    text-decoration: none;
+    color: black;
+    border: aliceblue solid 4px;
+    border-radius: 10px;
+    margin-bottom: auto;
+    padding: 7px;
+}
+header{
+    font-family: 'Julee', cursive;
+    color: aliceblue;
+    font-size: 80px;
+    border: 5px solid rgba(0, 206, 209, 0.25);
+    border-radius: 50px;
+    margin-right: 1%;
+    margin-left: 17%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pxl6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+.header-img-offer{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.header-img-offer img{
+    height: 450px;
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 1%;
+    border: rgba(0, 206, 209, 0.25) solid 5px;
+}
+main p{
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+    margin-left: 18%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border: solid 5px rgba(0, 206, 209, 0.25);
+    border-radius: 10%;
+    padding: 2%;
+}
+footer{
+    width: 50;
+    height: 40px;
+    width: 80%;
+    margin-top: 2.5%;
+    background-color: rgb(137, 130, 130);
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+footer span:nth-child(1){
+    font-size: 25px;
+    margin-right: 0.5%;
+}
+footer span:nth-child(2){
+    font-size: 20px;
+    margin-right: 0.5%;
+}
+.offer{
+    font-family: 'Julee', cursive;
+    font-size: 40px;
+    width: 15%;
+    height: 450px;
+    border: solid 5px rgba(0, 206, 209, 0.25);
+    margin-right: 0.5%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(pxl7.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 100%;
+    position: fixed;
+    left: 1%;
+}

@@ -1,0 +1,28 @@
+header{
+    width: 96%;
+    height: 60px;
+    background-color: rgba(0, 206, 209, 0.825);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin: 2%;
+}
+img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    transform: rotate(40deg);
+}
+p{
+    text-align: center;
+    text-align: justify;
+    border: 5px solid rgba(0, 206, 209, 0.25);
+    padding: 2%;
+    border-radius: 5px;
+}
