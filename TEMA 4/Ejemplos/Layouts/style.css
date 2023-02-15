@@ -1,0 +1,33 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+main{
+    background-color: lightgrey;
+    margin: 20px auto;
+    padding: 20px;
+    overflow-y: auto;
+    width: 90%;
+}
+aside{
+    background-color: yellow;
+    float: left;
+    width: 25%;
+    height: 600px;
+}
+article{
+    background-color: red;
+    float: left;
+    height: 300px;
+    margin-left: 5%;
+    width: 20%;
+}
+footer{
+    background-color: blue;
+    float: left;
+    height: 290px;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 70%;
+}
