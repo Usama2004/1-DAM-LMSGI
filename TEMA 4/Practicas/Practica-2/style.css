@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Kanit:wght@700&family=Rancho&family=Roboto+Mono:wght@700&family=Roboto:wght@500&family=Wallpoet&display=swap');
+
+/*font-family: 'Averia Serif Libre', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Rancho', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Wallpoet', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 3800px;
+    /*
+    Al haber asignado la propiedad 'position: sticky;' al nav y al aside encontre algunos
+    problemas, ya que no se aplicaba la propiedad; por lo que tras un periodo de investigación,
+    acabe sabiendo el problema, es decir, el elemento padre del elemento que tiene la
+    propiedad sticky debe tener una altura establecida y la cual nos deje hacer scroll.
+
+    En mi caso el elemento padre del nav y el aside es el body: Al establecer la altura 
+    del elemento padre con porcentajes la propiedad sticky no hace efecto, por lo que
+    segun he visto la propiedad sticky solo hace efecto cuando establecemos la altura del
+    elemento padre con unidades de medida px y vh.
+    */
+}
+header{
+    margin: 1%;
+    border: 5px solid #cbeef7;
+    border-radius: 10px;
+    height: 350px;
+    font-size: 30px;
+    /*
+    La razón por la que pongo un font-size dentro del contenedor header es porque
+    quiero aumentar el tamaño del icono ya que si lo hago con la etique 'i' no 
+    capta el tamaño que yo escribo
+    */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(portada.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+header p{
+    font-size: 65px;
+    font-family: 'Wallpoet', cursive;
+}
+header i, p{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+nav{
+    background-color: #ffffff;
+    margin: 1%;
+    border: 5px solid #cbeef7;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 2%;
+    position: sticky;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Wallpoet', cursive;
+    margin: 2% 4%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: #268fc0;
+    color: white;
+}
+aside{
+    border: 5px solid #cbeef7;
+    float: left;
+    width: 20%;
+    height: 400px;
+    margin: 0% 0.5% 1% 1%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 20%;
+}
+aside p{
+    font-size: 13px;
+    font-family: 'Averia Serif Libre', cursive;
+    margin: 1%;
+    border: 5px solid #a7e9d1;
+    padding: 5%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+aside a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    border: 5px solid #a7e9d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0% 0% 0%;
+    padding: 5%;
+    width: 100%;
+    font-family: 'Averia Serif Libre', cursive;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    /*
+    La propiedad ' target= "_blank " ' se a aplicado en el HTML ya que si se aplica desde el CSS no hace efecto
+    */
+}
+aside a:hover{
+    background-color: #268fc0;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+footer{
+    float: left;
+    border: 5px solid #cbeef7;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+    width: 76.5%;
+    margin: 0% 0% 1% 22.2%;
+    border-radius: 10px;
+    padding: 1%;
+}
+.sct-1{
+    float: left;
+    width: 78%;
+}
+.sct-1 article{
+    float: left;
+    border: #cbeef7 solid 5px;
+    width: 31.2%;
+    height: 535px;
+    margin: 0% 1% 1% 1%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.sct-1 article img{
+    height: 250px;
+    width: 250px;
+    border: 5px solid #a7e9d1;
+    border-radius: 10px;
+    margin: 5% auto 2% auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.sct-1 article p{
+    font-size: 13px;
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: justify;
+    padding: 5%;
+}
+.sct-2{
+    right: 2%;
+    float: left;
+    width: 78%;
+    margin-left: 21.6%;
+}
+.sct-2 article{
+    float: left;
+    border: #cbeef7 solid 5px;
+    width: 31.2%;
+    height: 270px;
+    margin: 0% 1% 1% 1%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.sct-2 article p{
+    font-size: 13px;
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: justify;
+    padding: 5%;
+}
+.sct-3{
+    right: 2%;
+    float: left;
+    width: 76.5%;
+    margin: 0% 0% 1% 22.2%;
+    border: #cbeef7 solid 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.sct-3 p{
+    font-size: 13px;
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: justify;
+    padding: 5%;
+}
+.sct-3 h3{
+    text-align: center;
+    border: 5px solid #a7e9d1;
+    font-size: 25px;
+    font-family: 'Wallpoet', cursive;
+    padding: 2%;
+    width: 30%;
+    margin: 1.5% auto 0% auto;
+    border-radius: 10px;
+}
+.sct-3 img{
+    width: 400px;
+    height: 300px;
+    border: 5px solid #a7e9d1;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.sct-4{
+    right: 2%;
+    float: left;
+    width: 76.5%;
+    margin: 0% 0% 1% 22.2%;
+    border: #cbeef7 solid 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.sct-4 p{
+    font-size: 13px;
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: justify;
+    padding: 5%;
+}
+.sct-4 h3{
+    text-align: center;
+    border: 5px solid #a7e9d1;
+    font-size: 25px;
+    font-family: 'Wallpoet', cursive;
+    padding: 2%;
+    width: 30%;
+    margin: 1.5% auto 0% auto;
+    border-radius: 10px;
+}
+.sct-4 img{
+    width: 400px;
+    height: 300px;
+    border: 5px solid #a7e9d1;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.sct-5{
+    right: 2%;
+    float: left;
+    width: 76.5%;
+    margin: 0% 0% 1% 22.2%;
+    border: #cbeef7 solid 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.sct-5 p{
+    font-size: 13px;
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: justify;
+    padding: 5%;
+}
+.sct-5 h3{
+    text-align: center;
+    border: 5px solid #a7e9d1;
+    font-size: 25px;
+    font-family: 'Wallpoet', cursive;
+    padding: 2%;
+    width: 30%;
+    margin: 1.5% auto 0% auto;
+    border-radius: 10px;
+}

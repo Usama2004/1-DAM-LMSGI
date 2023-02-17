@@ -1,0 +1,80 @@
+.container{
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+#primera{
+    background-color: lightskyblue;
+    width: 100%;
+}
+#segunda{
+    background-color: lightsalmon;
+    width: 100%;
+}
+#tercera{
+    background-color: lightgreen;
+    width: 100%;
+}
+
+.container1{
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+#primera1{
+    background-color: lightskyblue;
+    width: 100%;
+}
+#segunda1{
+    background-color: lightsalmon;
+    width: 100%;
+}
+#tercera1{
+    background-color: lightgreen;
+    width: 100%;
+}
+
+.container2{
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#primera2{
+    background-color: lightskyblue;
+    width: 50%;
+}
+#segunda2{
+    background-color: lightsalmon;
+    width: 50%;
+}
+#tercera2{
+    background-color: lightgreen;
+    width: 50%;
+}
+
+.container3{
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+}
+#primera3{
+    background-color: lightskyblue;
+    width: 50%;
+}
+#segunda3{
+    background-color: lightsalmon;
+    width: 50%;
+}
+#tercera3{
+    background-color: lightgreen;
+    width: 50%;
+}
