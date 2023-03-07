@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Phudu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 1%;
+    border: 5px solid #0056ab;
+    border-radius: 10px;
+    height: 350px;
+    background-image: url(FotoPortada.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header hgroup h1{
+    font-family: 'Gajraj One', cursive;
+    font-size: 200px;
+    color: #e83033;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header hgroup h3{
+    font-size: 40px;
+    height: 50px;
+    font-family: 'Gajraj One', cursive;
+    color: #0e2286;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header img{
+    height: 70%;
+    width: 15%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    margin: 1%;
+    border: 5px solid #0056ab;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    width: 35%;
+    height: 60vh;
+    /*A la hora de establecer una altura para el nav he tratado de usar porcentajes pero por 
+    alguna razón, la cual desconozco, no se porque no me lo coje el navegador. Quise usar px
+    pero lo una mala práctica ya que las medidas que damos en px hacen que no se adapte a 
+    todos los dispositivos. Entonces como solución he optado por usar la unidad de medidada vh,
+    la cual se parece a los porcentajes en cierta medida, hablando tecnicamente vh vendria a 
+    ser lo siguiente:
+    
+    Un vh representa el 1% de la altura de la ventana gráfica del navegador. Por lo tanto,
+    si se define un elemento con height: 100vh;, este se ajustará para ocupar el 100% de la
+    altura de la ventana gráfica del navegador, independientemente del tamaño de la 
+    pantalla. Por lo que en mi caso ni nav estaría ocupando un 55% de la ventana gráfica del
+    navegador.
+
+    Aparte del nav he usado vh en otras secciones de la página.*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gajraj One', cursive;
+    margin: 10%;
+    border: 5px solid #f4999a;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+nav a:hover{
+    background-color: #0056ab;
+    color: white;
+}
+hr{
+    height: 5px;
+    background-color: #e83033;
+    flex-wrap: wrap;
+}
+section{
+    border: #0056ab 5px solid;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1.5%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section article h2{
+    font-family: 'Phudu', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+section article p{
+    text-align: justify;
+    margin: 1.5% 0;
+    border: 5px solid #f37173;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: 'Phudu', cursive;
+}
+.txt{
+    height: 160vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.txt img{
+    height: 30%;
+    width: 30%;
+    border: #f4999a solid 5px;
+    border-radius: 10px;
+}
+footer{
+    border: #e83033 solid 5px;
+    margin: 1%;
+    padding: 1.5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10%;
+}
+
+
+
+  
